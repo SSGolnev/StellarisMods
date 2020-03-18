@@ -1,0 +1,14 @@
+	cheat_resource_200 = {
+        name = "cheat_resource_200"
+        length = 360000
+
+        modifier = {
+            country_food_produces_mult = 2
+			country_energy_produces_mult = 2
+			country_minerals_produces_mult = 2
+        }
+
+        ai_weight = {
+            weight = 0
+        }
+    }

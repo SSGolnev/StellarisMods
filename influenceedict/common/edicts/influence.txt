@@ -1,0 +1,14 @@
+    cheat_influence = {
+        name = "cheat_influence"
+        length = 360000
+
+        modifier = {
+            country_influence_produces_mult = 10.00
+			country_base_influence_produces_add = 100
+        }
+
+        ai_weight = {
+            weight = 0
+        }
+
+    }
