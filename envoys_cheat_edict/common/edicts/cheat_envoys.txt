@@ -1,0 +1,14 @@
+    cheat_envoys = {
+        name = "cheat_envoys"
+        length = 360000
+
+        modifier = {
+            envoys_add = 100
+			diplo_weight_mult = 1
+        }
+
+        ai_weight = {
+            weight = 0
+        }
+
+    }

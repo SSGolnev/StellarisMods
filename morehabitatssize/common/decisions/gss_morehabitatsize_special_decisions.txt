@@ -13,7 +13,7 @@ add_habitat_size_1 = {
 		cost = {
 			influence = 50
 			energy = 1000
-			minerals = 2000
+			minerals = 1500
 		}
 	}
 
@@ -53,7 +53,7 @@ add_habitat_size_2 = {
 		cost = {
 			influence = 100
 			energy = 2000
-			minerals = 5000
+			minerals = 3000
 		}
 	}
 
