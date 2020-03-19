@@ -1,4 +1,4 @@
-﻿l_english.yml:
+﻿l_english:
  building_hab_major_capital_2:0 "$building_major_capital$"
  building_hab_major_capital_2_desc:0 "$building_major_capital_desc$"
  building_hab_major_capital_3:0 "$building_system_capital$"
