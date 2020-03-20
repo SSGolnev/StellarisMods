@@ -1,0 +1,36 @@
+has_upgraded_capital = {
+	custom_tooltip = {
+		fail_text = "requires_building_hab_capital"
+		OR = {	
+			NOT = { is_planet_class = pc_habitat }
+			has_building = building_hab_capital
+			has_building = building_hab_major_capital
+			has_building = building_hab_major_capital_2
+			has_building = building_hab_major_capital_3
+		}
+	}
+}
+
+has_major_upgraded_capital = {
+	custom_tooltip = {
+		fail_text = "requires_building_hab_major_capital"
+		OR = {	
+			NOT = { is_planet_class = pc_habitat }
+			has_building = building_hab_major_capital
+			has_building = building_hab_major_capital_2
+			has_building = building_hab_major_capital_3
+		}
+	}
+}
+
+has_fully_upgraded_capital = {
+	custom_tooltip = {
+		fail_text = "requires_building_hab_major_capital"
+		OR = {	
+			NOT = { is_planet_class = pc_habitat }
+			has_building = building_hab_major_capital
+			has_building = building_hab_major_capital_2
+			has_building = building_hab_major_capital_3
+		}
+	}	
+}
