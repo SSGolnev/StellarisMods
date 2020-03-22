@@ -18,7 +18,7 @@ add_habitat_size_1 = {
 	}
 
 	potential = {
-		habitable_structure = yes
+		is_planet_class = pc_habitat
 		owner = {
 			has_ascension_perk = ap_voidborn
 		}
@@ -58,7 +58,7 @@ add_habitat_size_2 = {
 	}
 
 	potential = {
-		habitable_structure = yes
+		is_planet_class = pc_habitat
 		owner = {
 			has_ascension_perk = ap_voidborn
 		}
@@ -96,7 +96,7 @@ add_habitat_size_3 = {
 	}
 
 	potential = {
-		habitable_structure = yes
+		is_planet_class = pc_habitat
 		owner = {
 			has_ascension_perk = ap_voidborn
 			has_ascension_perk = ap_master_builders
@@ -135,7 +135,7 @@ add_habitat_size_4 = {
 	}
 
 	potential = {
-		habitable_structure = yes
+		is_planet_class = pc_habitat
 		owner = {
 			has_ascension_perk = ap_voidborn
 			has_ascension_perk = ap_master_builders
