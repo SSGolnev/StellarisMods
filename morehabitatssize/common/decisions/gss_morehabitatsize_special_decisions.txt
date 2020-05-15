@@ -19,9 +19,7 @@ add_habitat_size_1 = {
 
 	potential = {
 		is_planet_class = pc_habitat
-		owner = {
-			has_ascension_perk = ap_voidborn
-		}
+		has_planet_flag = advanced_habitat_2
 		NOT = { has_modifier = master_builders_habitats_new_1 }
 		NOT = { has_modifier = master_builders_habitats_new_2 }
 		NOT = { has_modifier = master_builders_habitats_new_3 }
@@ -59,8 +57,13 @@ add_habitat_size_2 = {
 
 	potential = {
 		is_planet_class = pc_habitat
-		owner = {
-			has_ascension_perk = ap_voidborn
+		OR = {
+			owner = {
+				has_ascension_perk = ap_voidborn
+			}
+			owner = {
+				has_origin = origin_void_dwellers
+			}
 		}
 		has_modifier = master_builders_habitats_new_1
 		NOT = { has_modifier = master_builders_habitats_new_2 }
@@ -108,45 +111,6 @@ add_habitat_size_3 = {
 	effect = {
 		add_modifier = {
 			modifier = master_builders_habitats_new_3
-			days = -1
-		}
-	}
-
-	ai_weight = {
-		weight = 5
-		modifier = {
-			factor = 0
-			free_district_slots > 0
-		}
-	}
-}
-
-add_habitat_size_4 = {
-	owned_planets_only = yes
-
-	enactment_time = @gss_time
-	resources = {
-		category = decisions
-		cost = {
-			influence = 200
-			energy = 2000
-			alloys = 2000
-		}
-	}
-
-	potential = {
-		is_planet_class = pc_habitat
-		owner = {
-			has_ascension_perk = ap_voidborn
-			has_ascension_perk = ap_master_builders
-		}
-		has_modifier = master_builders_habitats_new_3
-		NOT = { has_modifier = master_builders_habitats_new_4 }
-	}
-
-	effect = {
-		add_modifier = {
-			modifier = master_builders_habitats_new_4
 			days = -1
 		}
 	}
