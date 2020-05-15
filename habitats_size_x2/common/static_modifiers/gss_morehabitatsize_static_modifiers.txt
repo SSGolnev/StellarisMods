@@ -1,0 +1,23 @@
+master_builders_habitats_new_1 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_default.dds"
+	icon_frame = 1
+	planet_max_districts_add = 2
+}
+
+master_builders_habitats_new_2 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_default.dds"
+	icon_frame = 1
+	planet_max_districts_add = 2
+}
+
+master_builders_habitats_new_3 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_default.dds"
+	icon_frame = 1
+	planet_max_districts_add = 2
+}
+
+master_builders_habitats_new_4 = {
+	icon = "gfx/interface/icons/planet_modifiers/pm_default.dds"
+	icon_frame = 1
+	planet_max_districts_add = 2
+}

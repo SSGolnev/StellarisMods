@@ -1,0 +1,20 @@
+﻿l_russian:
+ add_habitat_size_1:0 "Построить блок A"
+ add_habitat_size_1_desc:0 "Жители строят дополнительный блок."
+ master_builders_habitats_new_1:0 "Блок A"
+ master_builders_habitats_new_1_desc:0 "Построен блок A"
+ 
+ add_habitat_size_2:0 "Построить блок B"
+ add_habitat_size_2_desc:0 "Жители строят дополнительный блок."
+ master_builders_habitats_new_2:0 "Блок B"
+ master_builders_habitats_new_2_desc:0 "Построен блок B"
+ 
+ add_habitat_size_3:0 "Построить блок C"
+ add_habitat_size_3_desc:0 "Жители строят дополнительный блок."
+ master_builders_habitats_new_3:0 "Блок C"
+ master_builders_habitats_new_3_desc:0 "Построен блок C"
+ 
+ add_habitat_size_4:0 "Построить блок D"
+ add_habitat_size_14_desc:0 "Жители строят дополнительный блок."
+ master_builders_habitats_new_4:0 "Блок D"
+ master_builders_habitats_new_4_desc:0 "Построен блок D"

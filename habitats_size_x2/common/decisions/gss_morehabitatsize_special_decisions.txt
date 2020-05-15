@@ -1,0 +1,164 @@
+##########################################################################
+# Decisions
+##########################################################################
+
+@gss_time = 360
+
+add_habitat_size_1 = {
+	owned_planets_only = yes
+
+	enactment_time = @gss_time
+	resources = {
+		category = decisions
+		cost = {
+			influence = 50
+			energy = 1000
+			minerals = 1500
+		}
+	}
+
+	potential = {
+		is_planet_class = pc_habitat
+		has_planet_flag = advanced_habitat_2
+		NOT = { has_modifier = master_builders_habitats_new_1 }
+		NOT = { has_modifier = master_builders_habitats_new_2 }
+		NOT = { has_modifier = master_builders_habitats_new_3 }
+		NOT = { has_modifier = master_builders_habitats_new_4 }
+	}
+
+	effect = {
+		add_modifier = {
+			modifier = master_builders_habitats_new_1
+			days = -1
+		}
+	}
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0
+			free_district_slots > 0
+		}
+	}
+}
+
+add_habitat_size_2 = {
+	owned_planets_only = yes
+
+	enactment_time = @gss_time
+	resources = {
+		category = decisions
+		cost = {
+			influence = 100
+			energy = 1500
+			minerals = 2000
+		}
+	}
+
+	potential = {
+		is_planet_class = pc_habitat
+		OR = {
+			owner = {
+				has_ascension_perk = ap_voidborn
+			}
+			owner = {
+				has_origin = origin_void_dwellers
+			}
+		}
+		has_modifier = master_builders_habitats_new_1
+		NOT = { has_modifier = master_builders_habitats_new_2 }
+	}
+
+	effect = {
+		add_modifier = {
+			modifier = master_builders_habitats_new_2
+			days = -1
+		}
+	}
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0
+			free_district_slots > 0
+		}
+	}
+}
+
+add_habitat_size_3 = {
+	owned_planets_only = yes
+
+	enactment_time = @gss_time
+	resources = {
+		category = decisions
+		cost = {
+			influence = 150
+			energy = 1500
+			alloys = 1000
+		}
+	}
+
+	potential = {
+		is_planet_class = pc_habitat
+		owner = {
+			has_ascension_perk = ap_voidborn
+			has_ascension_perk = ap_master_builders
+		}
+		has_modifier = master_builders_habitats_new_2
+		NOT = { has_modifier = master_builders_habitats_new_3 }
+	}
+
+	effect = {
+		add_modifier = {
+			modifier = master_builders_habitats_new_3
+			days = -1
+		}
+	}
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0
+			free_district_slots > 0
+		}
+	}
+}
+
+add_habitat_size_4 = {
+	owned_planets_only = yes
+
+	enactment_time = @gss_time
+	resources = {
+		category = decisions
+		cost = {
+			influence = 150
+			energy = 1500
+			alloys = 1500
+		}
+	}
+
+	potential = {
+		is_planet_class = pc_habitat
+		owner = {
+			has_ascension_perk = ap_voidborn
+			has_ascension_perk = ap_master_builders
+		}
+		has_modifier = master_builders_habitats_new_3
+		NOT = { has_modifier = master_builders_habitats_new_4 }
+	}
+
+	effect = {
+		add_modifier = {
+			modifier = master_builders_habitats_new_4
+			days = -1
+		}
+	}
+
+	ai_weight = {
+		weight = 5
+		modifier = {
+			factor = 0
+			free_district_slots > 0
+		}
+	}
+}
